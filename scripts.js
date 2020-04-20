@@ -1,5 +1,9 @@
-const respond = document.querySelector("button");
+const respond = document.querySelector("form");
 
-respond.addEventListener("submit", () => {
-  console.log("form submitted");
-});
+respond.addEventListener(
+  "submit",
+  () => {
+    console.log("form submitted");
+  }
+  //true
+);
