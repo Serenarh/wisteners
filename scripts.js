@@ -27,3 +27,11 @@ username.addEventListener(
   }
   //true
 );
+
+email.addEventListener(
+  "keyup",
+  () => {
+    console.log("You are typing into email input!");
+  }
+  //true
+);
