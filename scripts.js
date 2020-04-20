@@ -7,3 +7,13 @@ respond.addEventListener(
   }
   //true
 );
+
+const email = document.querySelector("#email");
+
+email.addEventListener(
+  "focus",
+  () => {
+    console.log("You entered the email input!");
+  }
+  //true
+);
