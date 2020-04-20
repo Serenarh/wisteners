@@ -17,3 +17,13 @@ email.addEventListener(
   }
   //true
 );
+
+const username = document.querySelector("#username");
+
+username.addEventListener(
+  "blur",
+  () => {
+    console.log("You left the username input!");
+  }
+  //true
+);
